@@ -29,7 +29,7 @@
 
   width: 20rem;
   height: 20rem;
-  background-color: #d9d8d6;
+  background-color: var(--grey-background);
 
   border: none;
   border-radius: 7px;
@@ -37,11 +37,12 @@
 
 .h4 {
   font-size: 1.2rem;
+  color: var(--blue-text);
 }
 
 .counter-span {
   font-size: 1.5rem;
-  color: #020840;
+  color: var(--blue-text);
 }
 
 .subdiv-btns {
@@ -58,10 +59,11 @@
   align-items: center;
   justify-content: center;
 
+  cursor: pointer;
   font-size: 2rem;
   font-weight: 600;
-  color: #020840;
-  background-color: #ffb700;
+  color: var(--blue-text);
+  background-color: var(--orange-btns);
   border: none;
   border-radius: 7px;
 
@@ -74,13 +76,20 @@
   align-items: center;
   justify-content: center;
 
+  cursor: pointer;
   font-size: 1.5rem;
   font-weight: 600;
+  color: var(--blue-text);
 
   width: 10rem;
   height: 5rem;
 
-  background-color: #ffb700;
+  background-color: var(--orange-btns);
   border: none;
   border-radius: 7px;
+}
+
+.send-btn:focus {
+  color: var(--orange-btns);
+  background-color: var(--blue-text);
 }

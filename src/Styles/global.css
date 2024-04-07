@@ -21,6 +21,13 @@ html {
   --text-color: #fff;
 }
 
+:root {
+  --blue-text: #0a19a2;
+  --darkblue-text: #020840;
+  --orange-btns: #ffb700;
+  --grey-background: #d9d8d6;
+}
+
 body {
   background-color: var(--background-color);
   color: var(--text-color);
