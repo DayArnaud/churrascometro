@@ -1,0 +1,66 @@
+.theme-icon {
+  cursor: pointer;
+  font-size: 2.2rem;
+
+  align-self: flex-end;
+  padding: 20px 20px 0 0;
+}
+
+.h1-page-title {
+  font-size: 3rem;
+}
+
+.h3-page-title {
+  font-size: 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  width: 30rem;
+  height: 5rem;
+  margin-bottom: 1rem;
+
+  color: var(--blue-text);
+  background-color: var(--orange-btns);
+  border: none;
+  border-radius: 7px;
+}
+
+.h4 {
+  font-size: 1.2rem;
+  color: var(--blue-text);
+}
+
+.send-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--blue-text);
+
+  width: 30rem;
+  height: 5rem;
+
+  background-color: var(--orange-btns);
+  border: none;
+  border-radius: 7px;
+}
+
+.send-btn:focus {
+  color: var(--orange-btns);
+  background-color: var(--blue-text);
+}
