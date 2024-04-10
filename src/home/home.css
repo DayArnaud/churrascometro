@@ -71,6 +71,11 @@
   height: 4rem;
 }
 
+.btn:focus {
+  color: var(--orange-btns);
+  background-color: var(--blue-text);
+}
+
 .send-btn {
   display: flex;
   align-items: center;

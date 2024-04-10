@@ -1,19 +1,19 @@
 import { createThemeIcon } from "../Theme/theme.js";
-
 const buttons = document.querySelectorAll(".btn");
 const sendButton = document.querySelector(".send-btn");
 
 const themeIcon = createThemeIcon();
 document.body.insertBefore(themeIcon, document.body.firstChild);
 
-buttons.forEach((button) => {
-  button.addEventListener("click", () => {
-    const counterSpan = this.parentNode.querySelector(".counter-span");
+buttons.forEach(function (button) {
+  button.addEventListener("click", function () {
+    const sectionDiv = this.closest(".section-div");
+    const counterSpan = sectionDiv.querySelector(".counter-span");
     let count = parseInt(counterSpan.textContent);
 
-    if (this.textContent === "+" && count >= 0) {
+    if (this.textContent.includes("+") && count >= 0) {
       count++;
-    } else if (this.textContent === "-" && count > 0) {
+    } else if (this.textContent.includes("-") && count > 0) {
       count--;
     }
 
