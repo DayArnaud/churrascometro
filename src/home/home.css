@@ -16,8 +16,9 @@
 
 .section {
   display: flex;
-  align-items: center;
+  justify-content: center;
   gap: 3rem;
+  flex-wrap: wrap;
 }
 
 .section-div {
@@ -33,6 +34,7 @@
 
   border: none;
   border-radius: 7px;
+  color: var(--blue-text);
 }
 
 .h4 {
