@@ -1,0 +1,53 @@
+.guests {
+  color: var(--cherry-text);
+}
+
+.participants {
+  display: flex;
+  gap: 2rem;
+}
+
+table {
+  width: 35%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 1.2rem;
+}
+
+tr {
+  border-bottom: 1px solid var(--grey-background);
+}
+
+td,
+th {
+  padding: 10px;
+  background-color: var(--orange-btns);
+}
+
+td {
+  text-align: right;
+}
+
+th {
+  text-align: left;
+}
+
+.send-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--blue-text);
+
+  width: 35%;
+  height: 5rem;
+
+  background-color: var(--orange-btns);
+  border: none;
+  border-radius: 7px;
+}
