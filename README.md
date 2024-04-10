@@ -2,7 +2,7 @@ Churrascômetro
 
 Objetivo
 
-Esta é uma calculadora chamada "Churrascômetro" que tem o intuito de calcular os itens para um delicioso churrasco. A página funciona em 3 passos, sendo que cada passo pode ser uma tela montada dinamicamente dentro do mesmo arquivo HTML ou simplesmente os componentes sendo atualizados dinamicamente.
+Esta é uma calculadora chamada "Churrascômetro" que tem o intuito de calcular os itens para um delicioso churrasco. A página funciona em 3 passos, sendo que cada passo é uma tela onde os componentes são atualizados dinamicamente com Vanilla JS.
 
 Requisitos
 
