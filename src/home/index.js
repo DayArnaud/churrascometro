@@ -22,5 +22,13 @@ buttons.forEach(function (button) {
 });
 
 sendButton.addEventListener("click", () => {
+  const men = document.querySelector(".men .counter-span");
+  const women = document.querySelector(".women .counter-span");
+  const children = document.querySelector(".children .counter-span");
+  const drinkers = document.querySelector(".drinkers .counter-span");
+
+  const barbecueData = { men, women, children, drinkers };
+  localStorage.setItem("barbecueData", JSON.stringify(barbecueData));
+
   window.location.href = "../form/form.html";
 });
