@@ -16,14 +16,21 @@
       <h1 class="h1-page-title">Churrascômetro</h1>
       <h3 class="h3-page-title">Precisa de uma ajudinha com o churrasco? :))</h3>
       <h3 class="h3-page-title">Quantas pessoas vão participar?</h3>
-      <form action="">
-        <input type="text" required>
-        <input type="email" required>
-        <input type="text" required>
-        <label for="terms">Concordo em receber comunicações e ofertas persoanlizadas de acordo com meus interesses</label>
+      <form class="form" action="">
+        <input class="input" type="text" placeholder="Digite seu nome" required>
+        <input class="input" type="email" placeholder="Digite seu email" required>
+        <input class="input" type="number" placeholder="Digite seu CEP" required>
+        <div class="checkbox-div">
         <input type="checkbox" id="terms" name="terms">
+        <label for="terms">Concordo em receber comunicações e ofertas persoanlizadas de acordo com meus interesses.</label>
+      </div>
+      <button type="submit" class="send-btn">Cadastrar</button>
       </form>
-      <button class="send-btn">Calcular</button>
+      <div class="back-forward">
+  <a class="back" href="../home/index.html">Voltar</a>
+  <a class="forward" href="../results/results.html">Pular</a>
+</div>
+
     <script type="module" src="./form.js"></script>
   </body>
 </html>

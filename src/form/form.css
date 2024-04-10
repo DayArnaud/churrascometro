@@ -37,9 +37,10 @@
   border-radius: 7px;
 }
 
-.h4 {
-  font-size: 1.2rem;
-  color: var(--blue-text);
+.checkbox-div {
+  display: flex;
+  gap: 1rem;
+  width: 30rem;
 }
 
 .send-btn {
@@ -54,6 +55,7 @@
 
   width: 30rem;
   height: 5rem;
+  margin-top: 8rem;
 
   background-color: var(--orange-btns);
   border: none;
@@ -63,4 +65,16 @@
 .send-btn:focus {
   color: var(--orange-btns);
   background-color: var(--blue-text);
+}
+
+.back-forward {
+  display: flex;
+  justify-content: space-between;
+  width: 30rem;
+}
+
+.back,
+.forward {
+  font-weight: 700;
+  text-decoration: none;
 }
